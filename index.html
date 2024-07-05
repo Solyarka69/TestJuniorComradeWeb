@@ -64,6 +64,16 @@
                     needs in the Chicagoland area.</p>
             </section>
         </main>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const mainEl = document.querySelector('.main');
+                const img = new Image();
+                img.src = "../src/pictures/background.webp";
+                img.onload = () => {
+                    mainEl.style.backgroundImage = 'url("../src/pictures/background.webp")';
+                };
+            });
+        </script>
 
         <section class="under-main">
             <div class="container">
