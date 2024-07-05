@@ -277,10 +277,10 @@ input::placeholder {
 .main {
   position: relative;
   height: calc(100vh - 104px);
-  background: url("../src/pictures/background.webp") no-repeat;
-  background-size: cover;
-  background-position: top center;
+  background: url("../src/pictures/background.webp") no-repeat top center / cover;
   flex-grow: 1;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
 }
 
 .main::after {
