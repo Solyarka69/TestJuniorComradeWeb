@@ -1,1 +1,1 @@
-# TestJuniorComradeWeb
+# TestFrontendJuniorComradeWeb
